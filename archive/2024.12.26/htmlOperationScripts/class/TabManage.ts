@@ -4,7 +4,7 @@ export class TabManage {
     headerElement: HTMLElement;
     sidebarElement: HTMLElement | null;
     mainElement: HTMLElement | null;
-    footerElement: HTMLElement; 
+    footerElement: HTMLElement;
     constructor() {
         this.headerElement = document.getElementsByTagName("header")[0];
         this.sidebarElement = document.getElementById("sidebar");

@@ -9,7 +9,7 @@ import { POSTData } from "../../scripts/interfaces/POSTData.js";
 
 interface ListData {
     name: string;
-    date: Date; 
+    date: Date;
     type: string;
     tempId?: string;
 };

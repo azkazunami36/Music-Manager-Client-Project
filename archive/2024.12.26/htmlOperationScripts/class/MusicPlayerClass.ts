@@ -6,7 +6,7 @@ import { FileTab } from "./tab/File.js";
 
 export class MusicPlayerClass extends EventEmitter<{
     play: [];
-    pause: []; 
+    pause: [];
     stop: [];
     next: [];
     previous: [];
